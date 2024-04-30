@@ -3,3 +3,4 @@ services:
     build:
       context: .
       dockerfile: ./docker/Dockerfile.l4t35_2-humble-devel-frontier
+    image: auip2_l4t35_2_frontier

@@ -14,5 +14,5 @@ echo "---"
 echo 'Available ZED packages:'
 ros2 pkg list | grep zed
 echo "---------------------"    
-#exec "$@"
 ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zedx
+exec "$@"
