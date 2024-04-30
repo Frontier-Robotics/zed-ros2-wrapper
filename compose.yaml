@@ -1,0 +1,5 @@
+services:
+  zedx:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.l4t35_2-humble-devel-frontier
