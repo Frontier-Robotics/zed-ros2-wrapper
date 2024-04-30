@@ -96,3 +96,9 @@ CMakeLists.txt.user*
 
 # TMP folders
 docker/tmp_sources
+
+docker/ros2_ws/install
+docker/ros2_ws/log
+docker/ros2_ws/build
+docker/ros2_ws/src
+docker/ros2_ws/install_deps.sh
